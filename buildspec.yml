@@ -61,7 +61,6 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - git branch --show-current 
   build:
     commands:
       - echo Build started on `date`
